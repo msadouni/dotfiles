@@ -11,6 +11,7 @@ call vundle#rc()
 " let Vundle manage Vundle, required
 Bundle 'gmarik/vundle'
 
+Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 
@@ -20,4 +21,6 @@ filetype plugin indent on     " required
 set nocompatible
 " Change mapleader
 let mapleader=","
+
+colorscheme Tomorrow-Night
 
