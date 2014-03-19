@@ -17,8 +17,6 @@ Bundle 'tpope/vim-git'
 
 filetype plugin indent on     " required
 
-" Make Vim more useful
-set nocompatible
 " Change mapleader
 let mapleader=","
 
