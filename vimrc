@@ -34,6 +34,10 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+" line numbers
+set relativenumber 
+set number
+
 " CtrlP
 nnoremap <leader><leader> :CtrlP<CR>
 
