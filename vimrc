@@ -23,4 +23,7 @@ set nocompatible
 let mapleader=","
 
 colorscheme Tomorrow-Night
+if has("gui_running")
+  set guifont=Menlo\ Regular:h14
+endif
 
