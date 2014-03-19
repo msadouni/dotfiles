@@ -38,6 +38,10 @@ set softtabstop=2
 set relativenumber 
 set number
 
+" invisible characters
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
+
 " CtrlP
 nnoremap <leader><leader> :CtrlP<CR>
 
