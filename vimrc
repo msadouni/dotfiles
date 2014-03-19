@@ -40,7 +40,7 @@ set number
 
 " invisible characters
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
-set list
+nnoremap <leader>l :set list!<CR>
 
 " CtrlP
 nnoremap <leader><leader> :CtrlP<CR>
