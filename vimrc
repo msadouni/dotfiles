@@ -12,6 +12,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 
@@ -24,4 +25,7 @@ colorscheme Tomorrow-Night
 if has("gui_running")
   set guifont=Menlo\ Regular:h14
 endif
+
+" CtrlP
+nnoremap <leader><leader> :CtrlP<CR>
 
