@@ -29,6 +29,11 @@ endif
 " autosave everything on focus lost
 :au FocusLost * silent! wa
 
+" indentation
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
 " CtrlP
 nnoremap <leader><leader> :CtrlP<CR>
 
