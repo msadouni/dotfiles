@@ -26,6 +26,9 @@ if has("gui_running")
   set guifont=Menlo\ Regular:h14
 endif
 
+" autosave everything on focus lost
+:au FocusLost * silent! wa
+
 " CtrlP
 nnoremap <leader><leader> :CtrlP<CR>
 
