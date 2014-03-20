@@ -15,6 +15,7 @@ Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
+Bundle 'plasticboy/vim-markdown'
 
 filetype plugin indent on     " required
 
@@ -60,4 +61,7 @@ nnoremap <leader>l :set list!<CR>
 
 " CtrlP
 nnoremap <leader><leader> :CtrlP<CR>
+
+" vim-markdown
+let g:vim_markdown_folding_disabled=1
 
