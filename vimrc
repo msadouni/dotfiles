@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'kien/ctrlp.vim'
+Bundle 'jiangmiao/auto-pairs'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'plasticboy/vim-markdown'
