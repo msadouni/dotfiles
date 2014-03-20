@@ -18,9 +18,16 @@ Bundle 'tpope/vim-git'
 
 filetype plugin indent on     " required
 
+set encoding=utf-8
+
 " Change mapleader
 let mapleader=","
 
+" display incomplete commands
+set showcmd
+
+" syntax
+syntax enable
 colorscheme Tomorrow-Night
 if has("gui_running")
   set guifont=Menlo\ Regular:h14
@@ -30,9 +37,18 @@ endif
 :au FocusLost * silent! wa
 
 " indentation
+set nowrap
 set expandtab
+set tabstop=2
 set shiftwidth=2
 set softtabstop=2
+set backspace=indent,eol,start
+
+" Searching
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase 
 
 " line numbers
 set relativenumber 
