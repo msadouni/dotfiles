@@ -1,0 +1,6 @@
+alias e="subl3 ."
+alias g=git
+alias v=vagrant
+alias vs="vagrant suspend"
+alias vu="vagrant up"
+
