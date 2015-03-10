@@ -1,6 +1,7 @@
 alias e="subl3 ."
 alias g=git
 alias v=vagrant
-alias vs="vagrant suspend"
+alias vs="vagrant ssh"
 alias vu="vagrant up"
-
+alias vss="vagrant suspend"
+alias vp="vagrant-ports"
