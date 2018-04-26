@@ -3,6 +3,9 @@
 export PATH="~/bin:/usr/local/sbin:/usr/local/bin:$PATH"
 export EDITOR=vim
 
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
 source ~/src/dotfiles/bash_gitprompt
 source ~/src/dotfiles/aliases
 
