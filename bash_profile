@@ -8,6 +8,9 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 source ~/src/dotfiles/bash_gitprompt
 source ~/src/dotfiles/aliases
+if [ -f ~/.aliases ]; then
+  source ~/.aliases
+fi
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
