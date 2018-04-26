@@ -40,3 +40,14 @@ Thumbs.db
 # Editor config #
 #################
 .tm_properties
+.jsbeautifyrc
+.floo*
+.idea
+
+# Ctags #
+#################
+.tags*
+
+# Git #
+#################
+*.orig
