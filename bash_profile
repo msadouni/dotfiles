@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export LC_ALL=en_US.UTF-8
+
 export PATH="~/bin:/usr/local/sbin:/usr/local/bin:$PATH"
 export EDITOR=vim
 
