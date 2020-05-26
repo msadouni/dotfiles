@@ -2,8 +2,10 @@
 
 export LC_ALL=en_US.UTF-8
 
-export PATH="~/bin:/usr/local/sbin:/usr/local/bin:$PATH"
+export PATH="~/bin:/usr/local/sbin:/usr/local/bin:~/Library/Android/sdk/platform-tools/:$PATH"
 export EDITOR=vim
+
+export ANDROID_HOME=~/Library/Android/sdk
 
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
