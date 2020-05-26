@@ -2,6 +2,7 @@ alias d='docker'
 alias dc='docker-compose'
 alias e="subl3 ."
 alias g=git
+alias ngrok='/Applications/ngrok'
 alias v=vagrant
 alias vs="vagrant ssh"
 alias vu="vagrant up"
