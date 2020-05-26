@@ -43,6 +43,7 @@ Thumbs.db
 .jsbeautifyrc
 .floo*
 .idea
+.vscode
 
 # Ctags #
 #################
