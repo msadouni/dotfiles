@@ -1,10 +1,4 @@
 alias d='docker'
 alias dc='docker compose'
-alias e="subl3 ."
+alias e="nvim ."
 alias g=git
-alias ngrok='/Applications/ngrok'
-alias v=vagrant
-alias vs="vagrant ssh"
-alias vu="vagrant up"
-alias vss="vagrant suspend"
-alias vp="vagrant-ports"
